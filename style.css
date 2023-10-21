@@ -1,0 +1,40 @@
+/* Basic CSS styling for the application */
+body {
+    background-image: url("gg.png");
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ebeff0f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(40, 203, 231, 0.966);
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    background-color: #81cde0;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button.edit {
+    background-color: #4caf50;
+}
